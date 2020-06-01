@@ -1,0 +1,26 @@
+{
+  "name": "contact",
+  "version": "1.0.0",
+  "description": "2017 USA legislator contact",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "contact",
+    "legislator"
+  ],
+  "author": "an-apluss",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "googleapis": "^51.0.0",
+    "helmet": "^3.22.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
